@@ -1,0 +1,34 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #4CAF50; /* Changed to green */
+    bottom: 15px;
+  }
+  
+  .comments span {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .comments p {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  @media (min-width: 600px) {
+    .comments {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .comments span {
+      margin: 0 10px;
+    }
+  }
+  
